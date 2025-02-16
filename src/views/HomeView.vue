@@ -56,7 +56,7 @@
             Luhamaal, Anželika Mahetalus 30., 31. juulil ja 1., 4., 5., 6., 7., 8., 9., 10. augustil 2025
         </h4>
     </div> -->
-
+ 
 
     <div @click="changeBackground" ref="backgroundContainer" class="background-container"></div>
 
