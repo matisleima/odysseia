@@ -1,5 +1,5 @@
 <template>
-    <div class="header-ribbon">
+    <!-- <div class="header-ribbon">
 
         <h1>
             Rockmuusikal Seto odüsseia
@@ -55,10 +55,10 @@
         <h4>
             Luhamaal, Anželika Mahetalus 30., 31. juulil ja 1., 4., 5., 6., 7., 8., 9., 10. augustil 2025
         </h4>
-    </div>
+    </div> -->
 
 
-    <!-- <div @click="changeBackground" ref="backgroundContainer" class="background-container"></div> -->
+    <div @click="changeBackground" ref="backgroundContainer" class="background-container"></div>
 
 
 </template>
@@ -68,8 +68,8 @@ export default {
   data() {
     return {
       images: [
-        "src/assets/group_4.png",
-        "src/assets/group_4_copy.png",
+        "src/assets/Group_4.png",
+        "src/assets/Group_4_copy.png",
       ],
       currentImageIndex: 0,
     };
