@@ -1,17 +1,7 @@
-// import { createApp } from 'vue'
 import './style.css'
-// import App from './App.vue'
-// import router from './router' // Import the router
-
-// const app = createApp(App)
-// app.use(router) // Use the router
-// app.mount('#app')
-
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
-// import axios from 'axios';
-// import VueAxios from 'vue-axios';
 // import VueGtag from 'vue-gtag';
 
 const app = createApp(App);
@@ -22,5 +12,4 @@ const app = createApp(App);
 // }, router);
 
 app.use(router);
-// app.use(VueAxios, axios);
 app.mount('#app');
