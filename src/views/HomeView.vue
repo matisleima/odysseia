@@ -50,13 +50,13 @@
             </p>
         </div>
     </div>
- 
+
     <div class="footer-ribbon">
         <h4>
             Luhamaal, Anželika Mahetalus 30., 31. juulil ja 1., 4., 5., 6., 7., 8., 9., 10. augustil 2025
         </h4>
     </div> -->
- 
+
 
     <div @click="changeBackground" ref="backgroundContainer" class="background-container"></div>
 
@@ -64,13 +64,13 @@
 </template>
 
 <script>
+import image1 from "@/assets/Group_4.png";
+import image2 from "@/assets/Group_4_copy.png";
+
 export default {
   data() {
     return {
-      images: [
-        "src/assets/Group_4.png",
-        "src/assets/Group_4_copy.png",
-      ],
+      images: [image1, image2],
       currentImageIndex: 0,
     };
   },
