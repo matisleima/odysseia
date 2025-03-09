@@ -64,8 +64,8 @@
 </template>
 
 <script>
-import image1 from "@/assets/Group_4.png";
-import image2 from "@/assets/Group_4_copy.png";
+import image1 from "@/assets/flaikufront.png";
+import image2 from "@/assets/flaikuback.png";
 
 export default {
   data() {
@@ -80,5 +80,9 @@ export default {
       this.$refs.backgroundContainer.style.backgroundImage = `url("${this.images[this.currentImageIndex]}")`;
     },
   },
+  mounted() {
+    // Set the initial background image when the component mounts
+    this.$refs.backgroundContainer.style.backgroundImage = `url("${this.images[this.currentImageIndex]}")`;
+  }
 };
 </script>

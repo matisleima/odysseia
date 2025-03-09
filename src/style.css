@@ -7,7 +7,7 @@ body {
 }
 
 .background-container {
-  background-image: url("src/assets/Group_4.png"); /* Initial background from CSS */
+  background-image: url("src/assets/flaikufront.png"); /* Initial background from CSS */
   margin: 0;
   background-size: contain;
   background-repeat: no-repeat;
