@@ -64,8 +64,8 @@
 </template>
 
 <script>
-import image1 from "@/assets/flaikufront.png";
-import image2 from "@/assets/flaikuback.png";
+import image1 from "@/assets/flaikufront.webp";
+import image2 from "@/assets/flaikuback.webp";
 
 export default {
   data() {
